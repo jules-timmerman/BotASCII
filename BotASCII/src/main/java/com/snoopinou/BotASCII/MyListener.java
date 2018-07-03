@@ -36,7 +36,7 @@ public class MyListener extends ListenerAdapter{
 				map.put(i, str);
 				
 			} catch (IOException | NullPointerException e) {
-				System.out.println("No existing "+i+".txt");
+				System.err.println("No existing "+i+".txt");
 				empty.add(i);
 			}
 		}
