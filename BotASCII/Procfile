@@ -1,1 +1,1 @@
-worker: java -jar target/BotASCIIMaven-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+worker: java -jar target/BotASCII-1.0-jar-with-dependencies.jar
